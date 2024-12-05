@@ -118,31 +118,61 @@ input {
 
 /* Center Message Box (for Success and Failure Pages) */
 .message-box {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent box */
     color: #333;
     text-align: center;
-    padding: 40px;
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin: auto;
+    padding: 20px; /* Adjust padding to fit content */
+    width: 300px; /* Fixed width for a square shape */
+    height: 300px; /* Fixed height for a square shape */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: auto; /* Centers the box */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
 }
 
 .message-box h1 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 1.8rem;
-    color: #74ebd5;
+    color: #007bff;
 }
 
 .message-box p {
-    margin-bottom: 20x;
+    margin-bottom: 20px;
     font-size: 1rem;
+}
+
+/* Button Styling */
+.message-box .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.message-box .btn:hover {
+    background-color: #0056b3;
+}
+/* Button Styling */
+.message-box .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.message-box .btn:hover {
+    background-color: #0056b3;
 }
 
 /* Footer Fix (Optional) */
@@ -153,3 +183,4 @@ footer {
     margin-top: auto;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
+
