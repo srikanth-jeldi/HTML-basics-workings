@@ -115,6 +115,13 @@ input {
 .btn:hover {
     background-color: #0056b3;
 }
+/* Center Content in About Page */
+.about-container {
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
 
 /* Center Message Box (for Success and Failure Pages) */
 .message-box {
