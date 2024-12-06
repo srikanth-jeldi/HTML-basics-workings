@@ -24,6 +24,21 @@ header {
     height: 50px;
 }
 
+/* Company Name Styling */
+.company-name {
+    font-family: 'Arial', sans-serif; /* Default font */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    color: #17a2b8; /* Default color */
+    margin-left: -425px;
+    text-transform: uppercase; /* Makes the text all uppercase */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.company-name:hover {
+    color: #138496; /* Hover color */
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -34,12 +49,12 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #138496;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: #17a2b8;
 }
 
 .social-media {
@@ -72,7 +87,7 @@ nav ul li a:hover {
 
 .login-form h2 {
     margin-bottom: 20px;
-    color: #74ebd5;
+    color: #138496;
 }
 
 .form-group {
@@ -100,7 +115,7 @@ input {
 
 /* Button Styling */
 .btn {
-    background-color: #007bff;
+    background-color: #17a2b8;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -113,7 +128,7 @@ input {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #138496;
 }
 /* Center Content in About Page */
 .about-container {
@@ -162,6 +177,103 @@ input {
     cursor: pointer;
     transition: 0.3s;
 }
+/* Options Section in Login Form */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Align Checkbox and Label */
+.options label {
+    display: flex;
+    align-items: center; /* Aligns checkbox and text vertically */
+    gap: 5px; /* Adds space between checkbox and text */
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer; /* Makes the entire label clickable */
+    white-space: nowrap; /* Ensures text stays on one line */
+}
+
+.options input[type="checkbox"] {
+    margin: 0; /* Removes default margin around checkbox */
+}
+
+.options .forgot-link {
+    color: #17a2b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.options .forgot-link:hover {
+    color: #138496;
+}
+/* Forgot Password Page Styling */
+.forgot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.forgot-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    max-width: 80%;
+}
+
+.forgot-box h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.forgot-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.forgot-box input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.forgot-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forgot-box button:hover {
+    background-color: #138496; /* Slightly darker shade */
+}
+
+.forgot-box input::placeholder {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+
 
 .message-box .btn:hover {
     background-color: #0056b3;

@@ -3,7 +3,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
 
     // Dummy credentials
     const validUsername = 'admin';
-    const validPassword = 'password123';
+    const validPassword = 'admin';
 
     // Get input values
     const username = document.getElementById('username').value;
