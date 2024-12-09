@@ -522,6 +522,7 @@ form {
 .form-group {
     margin-bottom: 15px;
     text-align: left;
+
 }
 
 .form-group label {
@@ -531,7 +532,7 @@ form {
     color: #003366;
 }
 
-.form-group input, .form-group textarea {
+.form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
